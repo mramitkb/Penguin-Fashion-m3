@@ -7,6 +7,14 @@
     <link rel="shortcut icon" href="./icons/igloo.svg" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        .bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header class="bg-[#FFFBF0]">
@@ -15,13 +23,25 @@
             <div>
                 <img class="w-72 md:w-84 lg:w-96" src="./icons/logo.png" alt="">
             </div>
-            <div class="flex md: text-base lg:text-lg items-center justify-center space-x-8 font-semibold">
+            <div class="flex md:text-base lg:text-lg items-center justify-center space-x-8 lg:space-x-14 font-semibold">
                 <a href="">Home</a>
                 <a href="">Product</a>
                 <a href="">About Us</a>
                 <a href="">Contact Us</a>
             </div>
         </nav>
+        <!-- Banner Section -->
+        <div class="flex items-center justify-evenly max-w-screen-xl mx-auto p-4 md:p-5">
+            <div class="space-y-3">
+                <h1 class="text-[#FABE4C] text-4xl md:text-6xl lg:text-7xl bebas">BE THE PENGUINS</h1>
+                <h2 class="lg:text-6xl font-semibold text-3xl md:text-5xl">OF WINTER</h2>
+                <p class="text-xs md:text-base text-[#3E3E3E] w-full md:w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, culpa. Lorem ipsum dolor sit amet.</p>
+                <button class="p-3 lg:p-4 text-xs md:text-sm lg:text-base font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white"><i class="fa-solid mx-1 fa-cart-shopping"></i> BUY NOW</button>
+            </div>
+            <div class="">
+                <img class="w-full" src="./images/model.png" alt="">
+            </div>
+        </div>
     </header>
 
     <main>
